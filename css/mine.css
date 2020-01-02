@@ -95,12 +95,11 @@ header .b-text {
 .btn-top,
 .top {
   float: right;
-  margin-right: 0;
+  width: 120px;
+  text-align: center;
 }
 
 .top .back {
-  margin-top: 35px;
-  margin-right: -35px;
   text-transform: uppercase;
   color: #15C4E7;
 }
