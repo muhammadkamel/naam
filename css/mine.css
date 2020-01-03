@@ -96,7 +96,30 @@ header .b-text {
   background: #1F1D1D;
   border: 1px solid rgba(255, 255, 255, 0.111);
   border-radius: 20px;
-  height: 660px;
+  height: 700px;
+}
+
+.zzz {
+  margin-top: 30px;
+}
+
+#resultsNow {
+  margin-top: 110px;
+}
+
+.table tr th {
+  font-size: 18px;
+  font-weight: 100;
+}
+.table span {
+  display: inline-block;
+  background-color: #FFF;
+  color: #1F1D1D;
+  padding: 5px;
+  border-radius: 3px;
+}
+.table tbody {
+  font-size: 22px;
 }
 
 .time {
@@ -140,7 +163,11 @@ header .b-text {
 }
 
 footer {
-  height: 170px;
+  height: 305px;
+}
+
+.bg-footer {
+  background-color: #272525;
 }
 
 .made {
@@ -148,4 +175,9 @@ footer {
   margin: 0 auto;
   position: relative;
   bottom: -100px;
+}
+
+.contacts {
+  margin-bottom: 50px;
+  padding: 10px;
 }

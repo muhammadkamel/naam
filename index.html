@@ -167,16 +167,16 @@
 			</div>
 			<div id="resultsNow" style="display:block;">
 	
-				<table class="table table table-borderless text-center" id="go">
+				<table class="table table-borderless text-center" id="go">
 					<thead>
 						<tr>
-							<th scope="col">Current Time</th>
-							<th scope="col">Wake up - Times</th>
+							<th scope="col"><span>Current Time</span></th>
+							<th scope="col"><span>Wake up - Times</span></th>
 						</tr>
 					</thead>
 					<tbody>
 						<tr>
-							<td></td>
+							<td class="curr"></td>
 							<td id="resultNow1"></td>
 						</tr>
 						<tr>
@@ -184,7 +184,7 @@
 							<td id="resultNow2"></td>
 						</tr>
 						<tr>
-							<td class="curr"></td>
+							<td></td>
 							<td id="resultNow3"></td>
 						</tr>
 						<tr>
@@ -224,10 +224,25 @@
 		</div>
 	</section>
 
-	<footer class="container">
-		<div class="made">
+	<footer class="bg-footer">
+		<div class="container made">
+			<div class="contacts">
+				<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="50" height="50" viewBox="0 0 50 50">
+					<image id="in" width="50" height="50" opacity="0.85" xlink:href="data:image/jpeg;base64,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"/>
+				</svg>				
+			</div>
 			<div>
-				<h5>Made by Muhammad Kamel</h5>
+				<h5>Designed with <span>
+					<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="28.829" height="23.604" viewBox="0 0 28.829 23.604">
+						<defs>
+							<linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+								<stop offset="0" stop-color="#ff000a"/>
+								<stop offset="1" stop-color="#e31b23"/>
+							</linearGradient>
+						</defs>
+						<path id="Love" d="M14.415,8.452V23.6S3.563,17.284.692,10.318A7.2,7.2,0,0,1,0,7.227c0-.066,0-.131,0-.2A6.458,6.458,0,0,1,.348,5.005a7.19,7.19,0,0,1,.706-1.538A5.633,5.633,0,0,1,2.579,1.692,7.2,7.2,0,0,1,7.225,0a7.278,7.278,0,0,1,1.1.083L8.311.065S12.776.358,14.485,3.9C16.058.638,19.968.132,20.577.072A7.29,7.29,0,0,1,21.6,0a7.2,7.2,0,0,1,4.646,1.692,5.636,5.636,0,0,1,1.527,1.777A7.187,7.187,0,0,1,28.481,5a6.452,6.452,0,0,1,.346,2.026c0,.065,0,.131,0,.2a7.2,7.2,0,0,1-.692,3.09C25.266,17.284,14.415,23.6,14.415,23.6Z" fill="url(#linear-gradient)"/>
+					</svg>					
+				</span> by Muhammad Kamel</h5>
 			</div>
 		</div>
 	</footer>
