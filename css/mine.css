@@ -111,8 +111,9 @@ header .b-text {
   float: right;
 }
 
-footer {
-  height: 170px;
+.scroll {
+  background-color: transparent;
+  height: 90px;
 }
 
 .top {
@@ -136,6 +137,10 @@ footer {
 
 .top a:hover {
   text-decoration: none;
+}
+
+footer {
+  height: 170px;
 }
 
 .made {
