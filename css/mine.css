@@ -96,7 +96,8 @@ header .b-text {
   background: #1F1D1D;
   border: 1px solid rgba(255, 255, 255, 0.111);
   border-radius: 20px;
-  height: 616px;
+  height: 620px;
+  overflow: hidden;
 }
 
 .zzz {
@@ -181,7 +182,9 @@ header .b-text {
 
 .contacts {
   width: 100%;
-  margin-bottom: 50px;
+  margin: 0 auto;
+  text-align: center;
+  padding-bottom: 40px;
 }
 
 .in-profile {
