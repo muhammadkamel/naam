@@ -18,7 +18,7 @@
 }
 
 body {
-  background-color: #1F1D1D;
+  background-color: #202124;
 }
 
 .navbar-light .navbar-brand {
@@ -93,7 +93,7 @@ header .b-text {
 .m-bg {
   display: block;
   padding: 30px;
-  background: #1F1D1D;
+  background: #202124;
   border: 1px solid rgba(255, 255, 255, 0.111);
   border-radius: 20px;
   height: 620px;
@@ -167,7 +167,7 @@ header .b-text {
 }
 
 .bg-footer {
-  background-color: #272525;
+  background-color: #3c4042;
   padding: 5px;
 }
 
