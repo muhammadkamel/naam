@@ -12,13 +12,13 @@
 }
 
 * {
-  font-family: BrownStd;
+  font-family: 'Nunito', 'CoconNextArabic-Light', 'CoconÆ Next Arabic';
   box-sizing: border-box;
   color: #FFF;
 }
 
 body {
-  background-color: #1F1D1D;
+  background-color: #121212;
 }
 
 .navbar-light .navbar-brand {
@@ -84,6 +84,7 @@ header .b-text {
   position: relative;
   right: -180px;
   float: right;
+  opacity: 0.5;
 }
 
 .section-sz {
@@ -93,10 +94,10 @@ header .b-text {
 .m-bg {
   display: block;
   padding: 30px;
-  background: #1F1D1D;
+  background: #121212;
   border: 1px solid rgba(255, 255, 255, 0.111);
   border-radius: 20px;
-  height: 620px;
+  height: auto;
   overflow: hidden;
 }
 
@@ -167,7 +168,7 @@ header .b-text {
 }
 
 .bg-footer {
-  background-color: #272525;
+  background-color: #1f1f1f;
   padding: 5px;
 }
 
